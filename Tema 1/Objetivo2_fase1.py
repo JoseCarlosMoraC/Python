@@ -10,7 +10,7 @@ print("Resta:", num1 - num2)
 print("Multiplicación:", num1 * num2)
 print("División:", num1 / num2)
 
-
+#He solicitado al usuario por pantalla dos números enteros y he mostrado su suma, resta, multiplicación y división
 
 
 print("Ejercicio 2")
@@ -22,6 +22,7 @@ real3 = float(input("Introduce otro número más: "))
 promedio = round((real1 + real2 + real3) / 3, 2)
 print("El promedio es:", promedio)
 
+#He solicitado al usuario por pantalla tres números reales, he calculado su promedio y lo he mostrado redondeado a dos decimales
 
 print("Ejercicio 3")
 #Pide dos enteros y muestra:
@@ -35,7 +36,7 @@ print("¿El primero es mayor?", num3 > num4)
 print("¿Son iguales?", num3 == num4)
 print("¿El segundo es distinto de cero?", num4 != 0)
 
-
+#He solicitado al usuario por pantalla dos números enteros y he mostrado si el primero es mayor que el segundo, si son iguales y si el segundo es distinto de cero
 
 print("Ejercicio 4")
 #Pide dos valores lógicos escritos como True o False y muestra:
@@ -52,7 +53,7 @@ print("Resultado de or:", valor1 or valor2)
 print("Resultado de not primer valor:", not valor1)
 print("Resultado de not segundo valor:", not valor2)
 
-
+#He solicitado al usuario por pantalla dos valores lógicos (True o False) y he mostrado los resultados de las operaciones and, or, not del primero y not del segundo
 
 print("Ejercicio 5")
 #Pide dos edades como texto, convierte a entero y muestra suma y promedio (1 decimal).
@@ -65,7 +66,7 @@ print("Suma total:", suma)
 print("Promedio:", promedio)
 
 
-
+#He solicitado al usuario por pantalla dos edades, las he convertido a enteros y he mostrado la suma total y el promedio con un decimal
 
 print("Ejercicio 6")
 #Pide dos números (pueden ser reales) y muestra:
@@ -77,8 +78,9 @@ num6 = float(input("Introduce otro número: "))
 
 print("(a > 10) and (b < 5):", (num5 > 10) and (num5 < 5))
 print("(a == b) or (b > 0):", (num5 == num6) or (num6 > 0))
-print("not (a < b):", not (num5 < num6))
+print("not (a < b):", not (num6 < num5))
 
+#He solicitado al usuario por pantalla dos números reales, los he dividido y he mostrado el resultado redondeado a un decimal
 
 
 print("Ejercicio 7")
@@ -87,3 +89,5 @@ num7 = float(input("Introduce un número: "))
 num8 = float(input("Introduce otro número: "))
 
 print("Resultado redondeado:", (round(num7 / num8, 1)))
+
+#He solicitado al usuario por pantalla dos números reales, los he dividido y he mostrado el resultado redondeado a un decimal

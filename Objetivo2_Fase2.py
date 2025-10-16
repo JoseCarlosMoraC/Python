@@ -1,15 +1,17 @@
 #José Carlos Mora 2ºDAM
 
+
+print("Ejercicio 1")
 #Pide al usuario los siguientes datos con input():
 #Nombre y apellidos
 #Curso
 #Grupo
 #Carpeta del proyecto (solo el nombre, por ejemplo: Python)
 
-nom = str(input("Introduce tu nombre completo"))
-curso = input("Introduce tu curso")
-grupo = input("Introduce tu grupo")
-carpeta = input("Introduce una carpeta(nombre)")
+nom = str(input("Introduce tu nombre completo: "))
+curso = input("Introduce tu curso: ")
+grupo = input("Introduce tu grupo: ")
+carpeta = input("Introduce una carpeta(nombre): ")
 
 
 
@@ -22,7 +24,3 @@ print(
     "Ruta del proyecto: C:\\Users\\" + nom + "\\" + curso + "\\" + carpeta + "\n"
     "------------------------------"
 )
-
-
-#He solicitado al usuario por pantalla su nombre completo, el curso, el grupo y el nombre de la carpeta del proyecto
-#Después, he mostrado una ficha con todos esos datos, incluyendo la ruta completa del proyecto 
