@@ -98,7 +98,7 @@ elif(nota==5):
     print("Suficiente")
 elif(nota==6):
     print("Bien")
-elif(nota>=7 and nota<=8):
+elif(nota>=7 and nota<=-8):
     print("Notable")
 elif(nota>=9 and nota <=10):
     print("Sobresaliente")
