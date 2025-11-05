@@ -1,3 +1,4 @@
+#José Carlos Mora 2ºDAM
 from PySide6.QtWidgets import QApplication, QMainWindow, QComboBox
 
 class MainWindow(QMainWindow):
