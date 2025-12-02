@@ -1,5 +1,9 @@
 # José Carlos Mora 2º DAM
 
+# He creado un QTabWidget con tres pestañas como widget central
+# Cada pestaña tiene un QLabel con un texto distinto
+# Cuando cambio de pestaña, actualizo el título de la ventana
+# y muestro el índice de la pestaña en la consola
 from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget, QLabel
 
 class MainWindow(QMainWindow):

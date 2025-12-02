@@ -1,5 +1,8 @@
 # José Carlos Mora 2º DAM
 
+# He creado un QDateTimeEdit como widget central para mostrar la fecha y hora actual
+# Cada vez que cambio la fecha u hora, se actualiza el título de la ventana
+# y se muestra el valor elegido en la consola
 from PySide6.QtWidgets import QApplication, QMainWindow, QDateTimeEdit
 from PySide6.QtCore import QDateTime
 

@@ -1,5 +1,8 @@
 # José Carlos Mora 2º DAM
 
+# He creado un QSlider como widget central para controlar el nivel de brillo
+# El rango va de 0 a 100 y el valor inicial es 50.
+# Cada vez que cambio el valor, se muestra el nivel de brillo actual en la consola
 from PySide6.QtWidgets import QApplication, QMainWindow, QSlider
 from PySide6.QtCore import Qt  
 

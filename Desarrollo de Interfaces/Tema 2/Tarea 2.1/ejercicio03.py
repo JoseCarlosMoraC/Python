@@ -1,5 +1,10 @@
 # José Carlos Mora 2º DAM
 
+# He creado un QProgressBar como widget central y un QTimer que pregunta al usuario
+# cada 2 segundos si quiere aumentar, disminuir o salir
+# El progreso se incrementa o decrementa en pasos de 20 y el titulo de la ventana
+# se actualiza según el valor actual. También muestro el progreso en la consola
+
 from PySide6.QtWidgets import QApplication, QMainWindow, QProgressBar
 from PySide6.QtCore import QTimer
 
