@@ -1,0 +1,123 @@
+
+QMainWindow {
+    background-color: #000000;  
+}
+
+QCheckBox {
+    font-size: 14px;
+    color: #ff4caf;   
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ff4caf; 
+    border-radius: 4px;
+    background: #222222;     
+}
+
+QCheckBox::indicator:hover {
+    border-color: #e8439f;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #ff4caf;  
+    border-color: #ff1f9f;
+}
+
+QCheckBox::indicator:disabled {
+    background-color: #555555;
+    border-color: #888888;
+}
+
+
+QPushButton {
+    background-color: #ff4caf;      
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 2px solid #c94cbf;      
+}
+
+QPushButton:hover {
+    background-color: #e8439f;
+}
+
+QPushButton:pressed {
+    background-color: #d31d8c;
+    border-color: #9f1768;
+}
+
+QPushButton:disabled {
+    background-color: #aa4b8f;
+    border-color: #666666;
+}
+
+
+QLineEdit {
+    background: #222222;     
+    color: #ff4caf;           
+    border: 2px solid #ff4caf;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border-color: #e8439f;
+    background: #333333;
+}
+
+
+QRadioButton {
+    font-size: 14px;
+    color: #ff4caf;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ff4caf;
+    border-radius: 9px;
+    background: #222222;
+}
+
+QRadioButton::indicator:hover {
+    border-color: #e8439f;
+}
+
+QRadioButton::indicator:checked {
+    background: #ff4caf;
+    border-color: #ff1f9f;
+}
+
+
+QComboBox {
+    background-color: #222222;
+    color: #ff4caf;
+    border: 2px solid #ff4caf;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+QComboBox:hover {
+    border-color: #e8439f;
+}
+
+QComboBox::drop-down {
+    width: 25px;
+    border-left: 1px solid #ff4caf;
+    background: #333333;
+}
+
+
+QComboBox QAbstractItemView {
+    background: #222222;
+    color: #ff4caf;
+    border: 1px solid #ff4caf;
+    selection-background-color: #e8439f;
+    selection-color: #ffffff;
+}
