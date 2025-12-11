@@ -1,0 +1,25 @@
+/* Fondo general de la ventana */
+QWidget {
+    background-color: #e5e5e5;
+}
+
+/* QLineEdit con borde y fondo blanco */
+QLineEdit {
+    border: 2px solid #303030;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+}
+
+/* Estilo de los botones */
+QPushButton {
+    background-color: #0077cc;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Cuando el ratón pasa por encima */
+QPushButton:hover {
+    background-color: #005fa3;
+}

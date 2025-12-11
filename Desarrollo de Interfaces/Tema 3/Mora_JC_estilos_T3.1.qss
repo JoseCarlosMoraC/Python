@@ -1,123 +1,158 @@
-
+/* ================================
+   ESTILO GENERAL DE LA VENTANA
+   ================================ */
 QMainWindow {
-    background-color: #000000;  
+    background-color: #000000;  /* Fondo negro para toda la ventana */
 }
 
+
+/* ================================
+   CHECKBOX
+   ================================ */
 QCheckBox {
-    font-size: 14px;
-    color: #ff4caf;   
-    spacing: 8px;
+    font-size: 14px;        /* Tamaño de letra del texto del checkbox */
+    color: #ff4caf;         /* Color del texto */
+    spacing: 8px;           /* Espacio entre la casilla y el texto */
 }
 
+/* Indicador = la cajita del checkbox */
 QCheckBox::indicator {
-    width: 20px;
-    height: 20px;
-    border: 2px solid #ff4caf; 
-    border-radius: 4px;
-    background: #222222;     
+    width: 20px;                  /* Anchura de la casilla */
+    height: 20px;                 /* Altura de la casilla */
+    border: 2px solid #ff4caf;    /* Borde rosa */
+    border-radius: 4px;           /* Esquinas redondeadas */
+    background: #222222;          /* Fondo gris oscuro */
 }
 
+/* Cuando el ratón pasa por encima del indicador */
 QCheckBox::indicator:hover {
-    border-color: #e8439f;
+    border-color: #e8439f;        /* Cambia el color del borde */
 }
 
+/* Cuando el checkbox está marcado */
 QCheckBox::indicator:checked {
-    background-color: #ff4caf;  
-    border-color: #ff1f9f;
+    background-color: #ff4caf;    /* Fondo rosa cuando está activo */
+    border-color: #ff1f9f;        /* Borde más fuerte */
 }
 
+/* Cuando el checkbox está deshabilitado */
 QCheckBox::indicator:disabled {
-    background-color: #555555;
-    border-color: #888888;
+    background-color: #555555;    /* Fondo gris apagado */
+    border-color: #888888;        /* Borde gris claro */
 }
 
 
+
+/* ================================
+   BOTONES (QPushButton)
+   ================================ */
 QPushButton {
-    background-color: #ff4caf;      
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 8px 12px;
-    font-size: 14px;
-    border: 2px solid #c94cbf;      
+    background-color: #ff4caf;     /* Color principal del botón */
+    color: #ffffff;                 /* Texto blanco */
+    border-radius: 8px;             /* Bordes redondeados */
+    padding: 8px 12px;              /* Espaciado interno */
+    font-size: 14px;                /* Tamaño de letra */
+    border: 2px solid #c94cbf;      /* Borde decorativo */
 }
 
+/* Botón al pasar con el mouse */
 QPushButton:hover {
-    background-color: #e8439f;
+    background-color: #e8439f;     /* Aumenta el color rosa */
 }
 
+/* Botón presionado */
 QPushButton:pressed {
-    background-color: #d31d8c;
-    border-color: #9f1768;
+    background-color: #d31d8c;     /* Color más oscuro */
+    border-color: #9f1768;         /* Borde más fuerte */
 }
 
+/* Botón deshabilitado (disabled) */
 QPushButton:disabled {
-    background-color: #aa4b8f;
-    border-color: #666666;
+    background-color: #aa4b8f;     /* Rosa apagado */
+    border-color: #666666;         /* Borde gris */
 }
 
 
+
+/* ================================
+   CUADROS DE TEXTO (QLineEdit)
+   ================================ */
 QLineEdit {
-    background: #222222;     
-    color: #ff4caf;           
-    border: 2px solid #ff4caf;
-    border-radius: 6px;
-    padding: 6px;
-    font-size: 14px;
+    background: #222222;          /* Fondo gris oscuro */
+    color: #ff4caf;               /* Texto rosa */
+    border: 2px solid #ff4caf;    /* Borde rosa */
+    border-radius: 6px;           /* Esquinas redondeadas */
+    padding: 6px;                 /* Espaciado interno */
+    font-size: 14px;              /* Tamaño del texto */
 }
 
+/* Cuando el usuario hace clic y el QLineEdit recibe el foco */
 QLineEdit:focus {
-    border-color: #e8439f;
-    background: #333333;
+    border-color: #e8439f;        /* Borde más brillante */
+    background: #333333;          /* Fondo un poco más claro */
 }
 
 
+
+/* ================================
+   RADIOBUTTONS
+   ================================ */
 QRadioButton {
     font-size: 14px;
-    color: #ff4caf;
+    color: #ff4caf;               /* Texto rosa */
 }
 
+/* Indicador circular del radiobutton */
 QRadioButton::indicator {
-    width: 18px;
+    width: 18px;                    /* Tamaño del círculo */
     height: 18px;
-    border: 2px solid #ff4caf;
-    border-radius: 9px;
-    background: #222222;
+    border: 2px solid #ff4caf;      /* Borde rosa */
+    border-radius: 9px;             /* Redondeado → círculo perfecto */
+    background: #222222;            /* Fondo gris oscuro */
 }
 
+/* Hover sobre el indicador */
 QRadioButton::indicator:hover {
-    border-color: #e8439f;
+    border-color: #e8439f;          /* Rosa más brillante */
 }
 
+/* Cuando está marcado */
 QRadioButton::indicator:checked {
-    background: #ff4caf;
-    border-color: #ff1f9f;
+    background: #ff4caf;            /* Círculo interior rosa */
+    border-color: #ff1f9f;          /* Borde rosa intenso */
 }
 
 
+
+/* ================================
+   COMBOBOX (QComboBox)
+   ================================ */
 QComboBox {
-    background-color: #222222;
-    color: #ff4caf;
-    border: 2px solid #ff4caf;
-    border-radius: 6px;
-    padding: 5px;
+    background-color: #222222;   /* Fondo del cuadro desplegable */
+    color: #ff4caf;              /* Texto rosa */
+    border: 2px solid #ff4caf;   /* Borde rosa */
+    border-radius: 6px;          /* Bordes redondeados */
+    padding: 5px;                /* Espaciado alrededor del texto */
     font-size: 14px;
 }
 
+/* Hover del QComboBox */
 QComboBox:hover {
-    border-color: #e8439f;
+    border-color: #e8439f;       /* Borde más brillante */
 }
 
+/* Parte del botón que despliega la flecha */
 QComboBox::drop-down {
-    width: 25px;
+    width: 25px;                 /* Anchura del botón de flecha */
     border-left: 1px solid #ff4caf;
-    background: #333333;
+    background: #333333;         /* Fondo un poco más claro */
 }
 
-
+/* Lista que aparece al desplegar el combobox */
 QComboBox QAbstractItemView {
-    background: #222222;
-    color: #ff4caf;
-    border: 1px solid #ff4caf;
-    selection-background-color: #e8439f;
-    selection-color: #ffffff;
+    background: #222222;                /* Fondo del menú */
+    color: #ff4caf;                     /* Texto rosa */
+    border: 1px solid #ff4caf;          /* Borde rosa */
+    selection-background-color: #e8439f; /* Color de selección */
+    selection-color: #ffffff;            /* Texto de selección */
 }

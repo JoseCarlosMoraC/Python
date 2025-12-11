@@ -1,0 +1,170 @@
+from PySide6.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout,
+    QLabel, QLineEdit, QCheckBox, QRadioButton,
+    QComboBox, QPushButton
+)
+from PySide6.QtCore import Signal
+import sys
+import os
+
+
+# ============================================================
+# FUNCIÓN QUE CARGA EL ARCHIVO QSS
+# ============================================================
+
+def cargar_qss(app, archivo_qss):
+    # Obtiene la ruta del archivo QSS en la misma carpeta del .py
+    ruta = os.path.join(os.path.dirname(__file__), archivo_qss)
+
+    # Abre el archivo y carga todo el contenido en la aplicación
+    with open(ruta, "r", encoding="utf-8") as f:
+        app.setStyleSheet(f.read())
+
+
+# ============================================================
+# COMBOBOX PERSONALIZADO CON UNA SEÑAL
+# ============================================================
+
+class CiudadCombo(QComboBox):
+    # Creamos una señal que enviará (str) con la ciudad selecionada
+    ciudadCambiada = Signal(str)
+
+    def __init__(self):
+        super().__init__()
+
+        # Añadimos elementos al combobox
+        self.addItems(["Sevilla", "Madrid", "Valencia"])
+
+        # Cuando cambie el texto, llamamos al método emitir_ciudad
+        self.currentTextChanged.connect(self.emitir_ciudad)
+
+    def emitir_ciudad(self, texto):
+        # Emitimos la señal personalizada pasando la ciudad seleccionada
+        self.ciudadCambiada.emit(texto)
+
+
+# ============================================================
+# VENTANA PRINCIPAL
+# ============================================================
+
+class Ventana(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("Formulario con Estilos")
+
+        # Contenedor y layout vertical
+        contenedor = QWidget()
+        layout = QVBoxLayout()
+
+        # ------------------------------
+        # QLineEdit para escribir nombre
+        # ------------------------------
+        self.nombre = QLineEdit()
+        self.nombre.setPlaceholderText("Escribe tu nombre")
+
+        # ------------------------------
+        # CheckBox para aceptar términos
+        # ------------------------------
+        self.check = QCheckBox("Acepto los términos")
+
+        # ------------------------------
+        # RadioButtons para elegir deporte
+        # ------------------------------
+        self.r1 = QRadioButton("Fútbol")
+        self.r2 = QRadioButton("Baloncesto")
+        self.r3 = QRadioButton("Tenis")
+
+        # ------------------------------
+        # ComboBox personalizado con señal
+        # ------------------------------
+        self.combo = CiudadCombo()
+
+        # Conectamos la señal personalizada a un método
+        self.combo.ciudadCambiada.connect(self.cuando_cambia_ciudad)
+
+        # ------------------------------
+        # Botón para enviar datos
+        # ------------------------------
+        self.boton = QPushButton("Enviar")
+
+        # Conexión del botón a la función enviar()
+        self.boton.clicked.connect(self.enviar)
+
+        # ------------------------------
+        # Etiqueta donde aparecerán los mensajes
+        # ------------------------------
+        self.msg = QLabel("Esperando...")
+
+        # Añadimos todo al layout
+        layout.addWidget(QLabel("Nombre:"))
+        layout.addWidget(self.nombre)
+        layout.addWidget(self.check)
+        layout.addWidget(QLabel("Deporte favorito:"))
+        layout.addWidget(self.r1)
+        layout.addWidget(self.r2)
+        layout.addWidget(self.r3)
+        layout.addWidget(QLabel("Ciudad:"))
+        layout.addWidget(self.combo)
+        layout.addWidget(self.boton)
+        layout.addWidget(self.msg)
+
+        # Aplicamos el layout al contenedor
+        contenedor.setLayout(layout)
+        self.setCentralWidget(contenedor)
+
+    # =====================================================
+    # MÉTODO QUE SE EJECUTA AL CAMBIAR LA CIUDAD
+    # =====================================================
+    def cuando_cambia_ciudad(self, ciudad):
+        self.msg.setText("Ciudad elegida: " + ciudad)
+
+    # =====================================================
+    # MÉTODO QUE SE EJECUTA AL PULSAR EL BOTÓN ENVIAR
+    # =====================================================
+    def enviar(self):
+        # El usuario debe aceptar los términos
+        if not self.check.isChecked():
+            self.msg.setText("Debes aceptar los términos")
+            return
+
+        # Comprobar que haya escrito el nombre
+        if self.nombre.text() == "":
+            self.msg.setText("Debes escribir tu nombre")
+            return
+
+        # Detectar qué RadioButton está marcado
+        deporte = ""
+        if self.r1.isChecked():
+            deporte = "Fútbol"
+        elif self.r2.isChecked():
+            deporte = "Baloncesto"
+        elif self.r3.isChecked():
+            deporte = "Tenis"
+        else:
+            deporte = "Ninguno"
+
+        # Obtener ciudad del combo
+        ciudad = self.combo.currentText()
+
+        # Mostrar mensaje final
+        self.msg.setText(
+            "Hola " + self.nombre.text() +
+            ". Te gusta " + deporte +
+            " y vives en " + ciudad
+        )
+
+
+# ============================================================
+# EJECUCIÓN DE LA APLICACIÓN
+# ============================================================
+
+app = QApplication(sys.argv)
+
+# Cargar estilos QSS
+cargar_qss(app, "colores.qss")
+
+ventana = Ventana()
+ventana.show()
+
+app.exec()

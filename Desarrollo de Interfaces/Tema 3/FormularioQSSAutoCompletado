@@ -1,0 +1,65 @@
+from PySide6.QtWidgets import *
+import sys, os
+
+
+def cargar_qss(app, archivo):
+    ruta = os.path.join(os.path.dirname(__file__), archivo)
+    with open(ruta, "r", encoding="utf-8") as f:
+        app.setStyleSheet(f.read())
+
+
+class VentanaQSS(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("Formulario con QSS")
+
+        # Contenedor y layout principal
+        cont = QWidget()
+        l = QVBoxLayout()
+
+        # Campo de nombre con placeholder
+        self.nombre = QLineEdit()
+        self.nombre.setPlaceholderText("Nombre...")
+
+        # ComboBox para elegir edad
+        self.edad = QComboBox()
+        self.edad.addItems([str(i) for i in range(1, 100)])
+
+        # Señal cuando cambia la edad
+        self.edad.currentTextChanged.connect(self.comprobar)
+
+        # CheckBox que debe activarse solo si es mayor de edad
+        self.check = QCheckBox("Soy mayor de edad")
+
+        # Botón guardar sin funcionalidad complicada
+        self.boton = QPushButton("Guardar")
+
+        # Añadimos los widgets al layout
+        l.addWidget(QLabel("Nombre:"))
+        l.addWidget(self.nombre)
+        l.addWidget(QLabel("Edad:"))
+        l.addWidget(self.edad)
+        l.addWidget(self.check)
+        l.addWidget(self.boton)
+
+        cont.setLayout(l)
+        self.setCentralWidget(cont)
+
+    def comprobar(self, texto):
+        # Convertimos edad a número
+        edad = int(texto)
+
+        # Marcamos o desmarcamos según la edad
+        if edad >= 18:
+            self.check.setChecked(True)
+        else:
+            self.check.setChecked(False)
+
+
+# Lanzar aplicación
+app = QApplication(sys.argv)
+cargar_qss(app, "estilos.qss")
+v = VentanaQSS()
+v.show()
+app.exec()
