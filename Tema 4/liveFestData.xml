@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<liveFestData>
+
+    <listaArtistas>
+        <artista codigo="LP">
+            <nombre>Linkin Park</nombre>
+            <email>manager@linkinpark.com</email>
+            <numIntegrantes>6</numIntegrantes>
+        </artista>
+        <artista codigo="TSTM">
+            <nombre>The Strokes</nombre>
+            <email>info@thestrokes.com</email>
+            <numIntegrantes>5</numIntegrantes>
+        </artista>
+        <artista codigo="RHCP">
+            <nombre>Red Hot Chili Peppers</nombre>
+            <email>contact@rhcp.com</email>
+            <numIntegrantes>4</numIntegrantes>
+        </artista>
+        <artista codigo="FOO">
+            <nombre>Foo Fighters</nombre>
+            <email>manager@foofighters.com</email>
+            <numIntegrantes>6</numIntegrantes>
+        </artista>
+        <artista codigo="MUSE">
+            <nombre>Muse</nombre>
+            <email>info@muse.mu</email>
+            <numIntegrantes>3</numIntegrantes>
+        </artista>
+        <artista codigo="TS">
+            <nombre>Taylor Swift</nombre>
+            <email>contact@taylorswift.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="ED">
+            <nombre>Ed Sheeran</nombre>
+            <email>manager@edsheeran.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="BILLIE">
+            <nombre>Billie Eilish</nombre>
+            <email>info@billieeilish.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="BTS">
+            <nombre>BTS</nombre>
+            <email>contact@bts.com</email>
+            <numIntegrantes>7</numIntegrantes>
+        </artista>
+        <artista codigo="COLD">
+            <nombre>Coldplay</nombre>
+            <email>manager@coldplay.com</email>
+            <numIntegrantes>4</numIntegrantes>
+        </artista>
+        <artista codigo="DAFT">
+            <nombre>Daft Punk</nombre>
+            <email>info@daftpunk.com</email>
+            <numIntegrantes>2</numIntegrantes>
+        </artista>
+        <artista codigo="CALVIN">
+            <nombre>Calvin Harris</nombre>
+            <email>contact@calvinharris.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="AVII">
+            <nombre>Avicii</nombre>
+            <email>manager@avicii.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="MART">
+            <nombre>Martin Garrix</nombre>
+            <email>info@martingarrix.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="TIESTO">
+            <nombre>Tiesto</nombre>
+            <email>contact@tiesto.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="IM">
+            <nombre>Imagine Dragons</nombre>
+            <email>manager@imaginedragons.com</email>
+            <numIntegrantes>4</numIntegrantes>
+        </artista>
+        <artista codigo="AJ">
+            <nombre>Arctic Monkeys</nombre>
+            <email>info@arcticmonkeys.com</email>
+            <numIntegrantes>4</numIntegrantes>
+        </artista>
+        <artista codigo="QN">
+            <nombre>Queen</nombre>
+            <email>contact@queen.com</email>
+            <numIntegrantes>4</numIntegrantes>
+        </artista>
+        <artista codigo="ACDC">
+            <nombre>AC/DC</nombre>
+            <email>manager@acdc.com</email>
+            <numIntegrantes>5</numIntegrantes>
+        </artista>
+        <artista codigo="GUNS">
+            <nombre>Guns N Roses</nombre>
+            <email>info@gunsnroses.com</email>
+            <numIntegrantes>5</numIntegrantes>
+        </artista>
+        <artista codigo="ARIANA">
+            <nombre>Ariana Grande</nombre>
+            <email>contact@arianagrande.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="DRAKE">
+            <nombre>Drake</nombre>
+            <email>manager@drake.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="ADELE">
+            <nombre>Adele</nombre>
+            <email>info@adele.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="BEY">
+            <nombre>Beyonce</nombre>
+            <email>contact@beyonce.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="RIHANA">
+            <nombre>Rihanna</nombre>
+            <email>manager@rihanna.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="WEEKND">
+            <nombre>The Weeknd</nombre>
+            <email>info@theweeknd.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="POST">
+            <nombre>Post Malone</nombre>
+            <email>contact@postmalone.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="TRAVIS">
+            <nombre>Travis Scott</nombre>
+            <email>manager@travisscott.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="SKRILL">
+            <nombre>Skrillex</nombre>
+            <email>info@skrillex.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+        <artista codigo="DEADM">
+            <nombre>Deadmau5</nombre>
+            <email>contact@deadmau5.com</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+		<artista codigo="DEADM">
+            <nombre>Repetido</nombre>
+            <email>repe@repe.es</email>
+            <numIntegrantes>1</numIntegrantes>
+        </artista>
+    </listaArtistas>
+
+    <listaConciertos>
+        <concierto id="1">
+            <fecha>2025-06-01</fecha>
+            <descripcion>Apertura Festival - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="LP" />
+        </concierto>
+        <concierto id="2">
+            <fecha>2025-06-01</fecha>
+            <descripcion>Noche Indie - Escenario Alternativo</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="TSTM" />
+        </concierto>
+        <concierto id="3">
+            <fecha>2025-06-01</fecha>
+            <descripcion>Pop Internacional - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="TS" />
+        </concierto>
+        <concierto id="4">
+            <fecha>2025-06-02</fecha>
+            <descripcion>Rock Clásico - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="RHCP" />
+        </concierto>
+        <concierto id="5">
+            <fecha>2025-06-02</fecha>
+            <descripcion>Electronic Night - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="DAFT" />
+        </concierto>
+        <concierto id="6">
+            <fecha>2025-06-02</fecha>
+            <descripcion>Acústico Especial - Escenario Íntimo</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="ED" />
+        </concierto>
+        <concierto id="7">
+            <fecha>2025-06-03</fecha>
+            <descripcion>Rock Alternativo - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="FOO" />
+        </concierto>
+        <concierto id="8">
+            <fecha>2025-06-03</fecha>
+            <descripcion>EDM Fiesta - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="CALVIN" />
+        </concierto>
+        <concierto id="9">
+            <fecha>2025-06-03</fecha>
+            <descripcion>Pop Stars - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="BILLIE" />
+        </concierto>
+        <concierto id="10">
+            <fecha>2025-06-04</fecha>
+            <descripcion>Rock Progresivo - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="MUSE" />
+        </concierto>
+        <concierto id="11">
+            <fecha>2025-06-04</fecha>
+            <descripcion>K-Pop Fever - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="BTS" />
+        </concierto>
+        <concierto id="12">
+            <fecha>2025-06-04</fecha>
+            <descripcion>Techno Session - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="AVII" />
+        </concierto>
+        <concierto id="13">
+            <fecha>2025-06-05</fecha>
+            <descripcion>Indie Británico - Escenario Alternativo</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="AJ" />
+        </concierto>
+        <concierto id="14">
+            <fecha>2025-06-05</fecha>
+            <descripcion>Pop Melódico - Escenario Principal</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="COLD" />
+        </concierto>
+        <concierto id="15">
+            <fecha>2025-06-05</fecha>
+            <descripcion>House Party - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="MART" />
+        </concierto>
+        <concierto id="16">
+            <fecha>2025-06-06</fecha>
+            <descripcion>Rock Épico - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="IM" />
+        </concierto>
+        <concierto id="17">
+            <fecha>2025-06-06</fecha>
+            <descripcion>Leyendas del Rock - Escenario Clásico</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="QN" />
+        </concierto>
+        <concierto id="18">
+            <fecha>2025-06-06</fecha>
+            <descripcion>Trance Journey - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="TIESTO" />
+        </concierto>
+        <concierto id="19">
+            <fecha>2025-06-07</fecha>
+            <descripcion>Hard Rock - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="ACDC" />
+        </concierto>
+        <concierto id="20">
+            <fecha>2025-06-07</fecha>
+            <descripcion>Divas del Pop - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="ARIANA" />
+        </concierto>
+        <concierto id="21">
+            <fecha>2025-06-07</fecha>
+            <descripcion>Dubstep Night - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="SKRILL" />
+        </concierto>
+        <concierto id="22">
+            <fecha>2025-06-08</fecha>
+            <descripcion>Rock Legendario - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="GUNS" />
+        </concierto>
+        <concierto id="23">
+            <fecha>2025-06-08</fecha>
+            <descripcion>R&B Soul - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="WEEKND" />
+        </concierto>
+        <concierto id="24">
+            <fecha>2025-06-08</fecha>
+            <descripcion>Progressive House - Escenario Dance</direccion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="DEADM" />
+        </concierto>
+        <concierto id="25">
+            <fecha>2025-06-09</fecha>
+            <descripcion>Baladas Pop - Escenario Íntimo</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="ADELE" />
+        </concierto>
+        <concierto id="26">
+            <fecha>2025-06-09</fecha>
+            <descripcion>Hip Hop & Pop - Escenario Principal</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="DRAKE" />
+        </concierto>
+        <concierto id="27">
+            <fecha>2025-06-09</fecha>
+            <descripcion>EDM Sunrise - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="CALVIN" />
+        </concierto>
+        <concierto id="28">
+            <fecha>2025-06-10</fecha>
+            <descripcion>Rock Potente - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="LP" />
+        </concierto>
+        <concierto id="29">
+            <fecha>2025-06-10</fecha>
+            <descripcion>Pop Icon - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="BEY" />
+        </concierto>
+        <concierto id="30">
+            <fecha>2025-06-10</fecha>
+            <descripcion>Electronic Paradise - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="TIESTO" />
+        </concierto>
+        <concierto id="31">
+            <fecha>2025-06-11</fecha>
+            <descripcion>Indie Rock - Escenario Alternativo</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="TSTM" />
+        </concierto>
+        <concierto id="32">
+            <fecha>2025-06-11</fecha>
+            <descripcion>Pop Sensation - Escenario Principal</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="RIHANA" />
+        </concierto>
+        <concierto id="33">
+            <fecha>2025-06-11</fecha>
+            <descripcion>Electro Beats - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="MART" />
+        </concierto>
+        <concierto id="34">
+            <fecha>2025-06-12</fecha>
+            <descripcion>Alternative Rock - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="MUSE" />
+        </concierto>
+        <concierto id="35">
+            <fecha>2025-06-12</fecha>
+            <descripcion>Urban Pop - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="POST" />
+        </concierto>
+        <concierto id="36">
+            <fecha>2025-06-12</fecha>
+            <descripcion>Bass Drop - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="SKRILL" />
+        </concierto>
+        <concierto id="37">
+            <fecha>2025-06-13</fecha>
+            <descripcion>Rock Sinfónico - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="FOO" />
+        </concierto>
+        <concierto id="38">
+            <fecha>2025-06-13</fecha>
+            <descripcion>Trap & Pop - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="TRAVIS" />
+        </concierto>
+        <concierto id="39">
+            <fecha>2025-06-13</fecha>
+            <descripcion>Future Bass - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="DEADM" />
+        </concierto>
+        <concierto id="40">
+            <fecha>2025-06-14</fecha>
+            <descripcion>Rock Británico - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="AJ" />
+        </concierto>
+        <concierto id="41">
+            <fecha>2025-06-14</fecha>
+            <descripcion>Singer-Songwriter - Escenario Íntimo</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="TS" />
+        </concierto>
+        <concierto id="42">
+            <fecha>2025-06-14</fecha>
+            <descripcion>Big Room - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="MART" />
+        </concierto>
+        <concierto id="43">
+            <fecha>2025-06-15</fecha>
+            <descripcion>Gran Final Rock - Escenario Principal</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="LP" />
+        </concierto>
+        <concierto id="44">
+            <fecha>2025-06-15</fecha>
+            <descripcion>Pop Finale - Escenario Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="TS" />
+        </concierto>
+        <concierto id="45">
+            <fecha>2025-06-15</fecha>
+            <descripcion>Closing Party - Escenario Dance</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="CALVIN" />
+        </concierto>
+        <concierto id="46">
+            <fecha>2025-06-16</fecha>
+            <descripcion>After Party Rock</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="RHCP" />
+        </concierto>
+        <concierto id="47">
+            <fecha>2025-06-16</fecha>
+            <descripcion>After Party Pop</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="BILLIE" />
+        </concierto>
+        <concierto id="48">
+            <fecha>2025-06-16</fecha>
+            <descripcion>After Party Electronic</descripcion>
+            <genero>ELECTRONICA</genero>
+            <cabecera codigoRef="TIESTO" />
+        </concierto>
+        <concierto id="49">
+            <fecha>2025-06-17</fecha>
+            <descripcion>Concierto Especial Rock</descripcion>
+            <genero>ROCK</genero>
+            <cabecera codigoRef="IM" />
+        </concierto>
+        <concierto id="50">
+            <fecha>2025-06-18</fecha>
+            <descripcion>Concierto Sin Artista</descripcion>
+            <genero>POP</genero>
+            <cabecera codigoRef="NOEXISTE" />
+        </concierto>
+    </listaConciertos>
+
+</liveFestData>

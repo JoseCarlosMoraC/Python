@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<festivalData>
+
+    <listaBandas>
+        <banda codigo="MCR">
+            <nombre>My Chemical Romance</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>4</numIntegrantes>
+            <email>contact@mcr.com</email>
+        </banda>
+        <banda codigo="MUSE">
+            <nombre>Muse</nombre>
+            <paisOrigen>UK</paisOrigen>
+            <numIntegrantes>3</numIntegrantes>
+            <email>info@muse.mu</email>
+        </banda>
+        <banda codigo="DAFT">
+            <nombre>Daft Punk</nombre>
+            <paisOrigen>France</paisOrigen>
+            <numIntegrantes>2</numIntegrantes>
+            <email>contact@daftpunk.com</email>
+        </banda>
+        <banda codigo="EMINEM">
+            <nombre>Eminem</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>info@eminem.com</email>
+        </banda>
+        <banda codigo="JAZZ5">
+            <nombre>The Jazz Collective</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>5</numIntegrantes>
+            <email>contact@jazzcollective.com</email>
+        </banda>
+        <banda codigo="FOO">
+            <nombre>Foo Fighters</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>6</numIntegrantes>
+            <email>info@foofighters.com</email>
+        </banda>
+        <banda codigo="COLDPLAY">
+            <nombre>Coldplay</nombre>
+            <paisOrigen>UK</paisOrigen>
+            <numIntegrantes>4</numIntegrantes>
+            <email>contact@coldplay.com</email>
+        </banda>
+        <banda codigo="AVICII">
+            <nombre>Avicii</nombre>
+            <paisOrigen>Sweden</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>info@avicii.com</email>
+        </banda>
+        <banda codigo="KENDRICK">
+            <nombre>Kendrick Lamar</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>contact@kendricklamar.com</email>
+        </banda>
+        <banda codigo="MILES">
+            <nombre>Miles Davis Tribute</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>7</numIntegrantes>
+            <email>tribute@milesdavis.com</email>
+        </banda>
+        <banda codigo="LINKIN">
+            <nombre>Linkin Park</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>5</numIntegrantes>
+            <email>info@linkinpark.com</email>
+        </banda>
+        <banda codigo="ARIANA">
+            <nombre>Ariana Grande</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>contact@arianagrande.com</email>
+        </banda>
+        <banda codigo="MARTIN">
+            <nombre>Martin Garrix</nombre>
+            <paisOrigen>Netherlands</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>info@martingarrix.com</email>
+        </banda>
+        <banda codigo="TRAVIS">
+            <nombre>Travis Scott</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>contact@travisscott.com</email>
+        </banda>
+        <banda codigo="HERBIE">
+            <nombre>Herbie Hancock</nombre>
+            <paisOrigen>USA</paisOrigen>
+            <numIntegrantes>1</numIntegrantes>
+            <email>info@herbiehancock.com</email>
+        </banda>
+    </listaBandas>
+
+    <listaConciertos>
+        <concierto id="1">
+            <fecha>2025-06-15</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="MCR" />
+        </concierto>
+        <concierto id="2">
+            <fecha>2025-06-15</fecha>
+            <escenario>Electronic Arena</escenario>
+            <genero>ELECTRONICA</genero>
+            <headliner codigoRef="DAFT" />
+        </concierto>
+        <concierto id="3">
+            <fecha>2025-06-15</fecha>
+            <escenario>Urban Stage</escenario>
+            <genero>HIPHOP</genero>
+            <headliner codigoRef="EMINEM" />
+        </concierto>
+        <concierto id="4">
+            <fecha>2025-06-16</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="MUSE" />
+        </concierto>
+        <concierto id="5">
+            <fecha>2025-06-16</fecha>
+            <escenario>Jazz Pavilion</escenario>
+            <genero>JAZZ</genero>
+            <headliner codigoRef="JAZZ5" />
+        </concierto>
+        <concierto id="6">
+            <fecha>2025-06-16</fecha>
+            <escenario>Pop Arena</escenario>
+            <genero>POP</genero>
+            <headliner codigoRef="COLDPLAY" />
+        </concierto>
+        <concierto id="7">
+            <fecha>2025-06-17</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="FOO" />
+        </concierto>
+        <concierto id="8">
+            <fecha>2025-06-17</fecha>
+            <escenario>Electronic Arena</escenario>
+            <genero>ELECTRONICA</genero>
+            <headliner codigoRef="AVICII" />
+        </concierto>
+        <concierto id="9">
+            <fecha>2025-06-17</fecha>
+            <escenario>Urban Stage</escenario>
+            <genero>HIPHOP</genero>
+            <headliner codigoRef="KENDRICK" />
+        </concierto>
+        <concierto id="10">
+            <fecha>2025-06-18</fecha>
+            <escenario>Jazz Pavilion</escenario>
+            <genero>JAZZ</genero>
+            <headliner codigoRef="MILES" />
+        </concierto>
+        <concierto id="11">
+            <fecha>2025-06-18</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="LINKIN" />
+        </concierto>
+        <concierto id="12">
+            <fecha>2025-06-18</fecha>
+            <escenario>Pop Arena</escenario>
+            <genero>POP</genero>
+            <headliner codigoRef="ARIANA" />
+        </concierto>
+        <concierto id="13">
+            <fecha>2025-06-19</fecha>
+            <escenario>Electronic Arena</escenario>
+            <genero>ELECTRONICA</genero>
+            <headliner codigoRef="MARTIN" />
+        </concierto>
+        <concierto id="14">
+            <fecha>2025-06-19</fecha>
+            <escenario>Urban Stage</escenario>
+            <genero>HIPHOP</genero>
+            <headliner codigoRef="TRAVIS" />
+        </concierto>
+        <concierto id="15">
+            <fecha>2025-06-19</fecha>
+            <escenario>Jazz Pavilion</escenario>
+            <genero>JAZZ</genero>
+            <headliner codigoRef="HERBIE" />
+        </concierto>
+        <concierto id="16">
+            <fecha>2025-06-20</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="MCR" />
+        </concierto>
+        <concierto id="17">
+            <fecha>2025-06-20</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="MUSE" />
+        </concierto>
+        <concierto id="18">
+            <fecha>2025-06-20</fecha>
+            <escenario>Pop Arena</escenario>
+            <genero>POP</genero>
+            <headliner codigoRef="COLDPLAY" />
+        </concierto>
+        <concierto id="19">
+            <fecha>2025-06-21</fecha>
+            <escenario>Main Stage</escenario>
+            <genero>ROCK</genero>
+            <headliner codigoRef="FOO" />
+        </concierto>
+        <concierto id="20">
+            <fecha>2025-06-21</fecha>
+            <escenario>Electronic Arena</escenario>
+            <genero>ELECTRONICA</genero>
+            <headliner codigoRef="DAFT" />
+        </concierto>
+    </listaConciertos>
+
+</festivalData>
